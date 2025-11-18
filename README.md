@@ -4,12 +4,12 @@ A modern Python project template with best practices and automated tooling.
 
 ## Features
 
-- 🚀 **UV**: Fast Python package installer and resolver
-- 🧪 **pytest**: Testing framework with coverage reporting
-- 🎨 **Ruff**: Lightning-fast Python linter and formatter
-- 🔍 **mypy**: Static type checking
-- 🪝 **pre-commit**: Git hooks for code quality
-- 🔄 **GitHub Actions**: Automated CI/CD pipeline with intelligent caching
+- **UV**: Fast Python package installer and resolver
+- **pytest**: Testing framework with coverage reporting
+- **Ruff**: Lightning-fast Python linter and formatter
+- **mypy**: Static type checking
+- **pre-commit**: Git hooks for code quality
+- **GitHub Actions**: Automated CI/CD pipeline with intelligent caching
 
 ## Prerequisites
 
@@ -113,7 +113,7 @@ The project includes a GitHub Actions workflow that:
 ### Ruff
 
 Configuration in `pyproject.toml` under `[tool.ruff]`:
-- Line length: 100
+- Line length: 120
 - Enabled: pycodestyle, pyflakes, isort, flake8-bugbear, and more
 
 ### mypy
